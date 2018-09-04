@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly WebDev Challenge 23</title>
+    <meta name="author" content="Michał Burzyński">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Leckerli+One|Montserrat:400,700,800&amp;subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/da23b44176.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!------- HEADER ------->
+
+    <header id="home">
+        <div class="overlay">
+            <nav class="site-nav">
+                <ul class="site-nav__menu">
+                    <li class="site-nav__menu-item"><a href="#home" class="site-nav__menu-link">Home</a></li>
+                    <li class="site-nav__menu-item"><a href="#about" class="site-nav__menu-link">About us</a></li>
+                    <li class="site-nav__menu-item"><a href="#services" class="site-nav__menu-link">Services</a></li>
+                    <li class="site-nav__menu-item"><a href="#profile" class="site-nav__menu-link">Profile</a></li>
+                    <li class="site-nav__menu-item"><a href="#client" class="site-nav__menu-link">Client</a></li>
+                    <li class="site-nav__menu-item"><a href="#blog" class="site-nav__menu-link">Blog</a></li>
+                    <li class="site-nav__menu-item"><a href="#contact" class="site-nav__menu-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-toggle">
+                <div class="hamburger"></div>
+            </div>
+
+            <div class="container">
+                <h2 class="logo">
+                    <span class="logo logo--blue">&#33;st</span> Agency
+                </h2>
+
+                <p class="welcome">Hello</p>
+                <h1 class="heading">My name is
+                    <span class="heading heading--blue">John Doe</span>
+                </h1>
+                <h2 class="sub-heading">Ceo
+                    <span class="sub-heading sub-heading--border"></span> &#33;st Agency
+                </h2>
+
+                <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat
+                    nulla pariatur.</p>
+                <button class="btn btn--primary">Click here</button>
+            </div>
+
+            <img class="model" src="images/model.png" alt="an athletic young man dressed in modern, casual clothes while being in motion">
+        </div>
+    </header>
+
+    <!------- ABOUT US ------->
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about__main">
+                <p class="title">Who we are</p>
+                <h2 class="subtitle subtitle--small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore
+                    magna aliqua.
+                </p>
+                <button class="btn btn--dark">Click here</button>
+            </div>
+
+            <p class="content content-aside">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.</p>
+        </div>
+    </section>
+
+    <!------- SERVICES ------->
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services__header">
+                <p class="title">Services</p>
+                <h2 class="subtitle">What I Do..</h2>
+            </div>
+
+            <div class="services__items">
+                <div class="services__item">
+                    <img class="services__item-icon" src="icon1.svg" alt="icon 1">
+                    <h3 class="services__item-heading">Lorem ipsum dolor sit amet</h3>
+                    <p class="content services__item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                </div>
+                <div class="services__item">
+                    <img class="services__item-icon" src="icon2.svg" alt="icon 2">
+                    <h3 class="services__item-heading">Lorem ipsum dolor sit amet</h3>
+                    <p class="content services__item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                </div>
+                <div class="services__item">
+                    <img class="services__item-icon" src="icon3.svg" alt="icon 3">
+                    <h3 class="services__item-heading">Lorem ipsum dolor sit amet</h3>
+                    <p class="content services__item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------- PROFILE ------->
+
+    <section id="profile" class="profile">
+        <div class="profile__header">
+            <p class="title title--gray">Profile</p>
+            <h2 class="subtitle subtitle--black">I Make Beautiful Things</h2>
+        </div>
+
+        <div class="profile__columns">
+            <div class="profile__column">
+                <img class="profile__img1" src="images/img01.jpg" alt="image 1">
+                <div class="row">
+                    <img class="profile__img2" src="images/img02.jpg" alt="image 2">
+                    <img class="profile__img3" src="images/img03.jpg" alt="image 3">
+                </div>
+            </div>
+
+            <div class="profile__column clearfix">
+                <img class="profile__img4" src="images/img04.jpg" alt="image 4">
+                <div class="col">
+                    <img class="profile__img5" src="images/img05.jpg" alt="image 5">
+                    <img class="profile__img6" src="images/img06.jpg" alt="image 6">
+                </div>
+            </div>
+        </div>
+
+        <div id="lightbox" class="lightbox">
+            <span class="lightbox__close-icon">&times;</span>
+            <span class="lightbox__prev-icon">&#10094;</span>
+            <span class="lightbox__next-icon">&#10095;</span>
+        </div>
+    </section>
+
+    <!------- CLIENT ------->
+
+    <section id="client" class="client">
+        <div class="overlay">
+            <div class="container">
+                <div class="client__header">
+                    <p class="title">Client</p>
+                    <h2 class="subtitle">What I Do..</h2>
+                    <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et
+                        dolore magna aliqua.</p>
+                </div>
+
+                <div class="client__logos">
+                    <img class="client__logo" src="images/unicorns.png" alt="unicorns logo">
+                    <img class="client__logo" src="images/atlantis.png" alt="atlantis logo">
+                    <img class="client__logo" src="images/great-falls.png" alt="great-falls logo">
+                    <img class="client__logo" src="images/norsemen.png" alt="norsemen logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------- BLOG ------->
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="blog__main">
+                <div class="blog__header">
+                    <p class="title title--gray">Blog</p>
+                    <h2 class="subtitle subtitle--black">I write Beautiful Things</h2>
+                    <p class="content content--gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua.</p>
+                </div>
+
+                <div class="blog__articles">
+                    <article class="blog__article">
+                        <p class="content content--big">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua.</p>
+                        <p class="date">11 November</p>
+                    </article>
+
+                    <article class="blog__article">
+                        <p class="date date--gray">11 November</p>
+                        <h2 class="blog__article-title blog__article-title--gray">Lorem ipsum dolor</h2>
+                    </article>
+
+                    <article class="blog__article">
+                        <p class="date">11 November</p>
+                        <h2 class="blog__article-title">Lorem ipsum dolor</h2>
+                    </article>
+                </div>
+            </div>
+
+            <aside class="blog__aside blog__articles">
+                <article class="blog__article">
+                    <div class="overlay">
+                        <p class="date">11 November</p>
+                        <h2 class="blog__article-title">Lorem ipsum dolor</h2>
+                        <p class="content content--big">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua.</p>
+                    </div>
+                </article>
+
+                <article class="blog__article">
+                    <p class="date">11 November</p>
+                    <h2 class="blog__article-title">Lorem ipsum dolor</h2>
+                    <p class="content content--big">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua.</p>
+                </article>
+            </aside>
+        </div>
+    </section>
+
+    <!------- CONTACT ------->
+
+    <section id="contact" class="contact">
+        <div class="overlay wrapper">
+            <div class="container">
+                <p class="title">Contacts..</p>
+                <h2 class="subtitle">Address Info</h2>
+                <ul class="address-info">
+                    <li class="address-info__item">
+                        <p class="content content--bold">Email</p>
+                        <p class="content">free&#64;psdfreebies.com</p>
+                    </li>
+                    <li class="address-info__item">
+                        <p class="content content--bold">Call Us &#33;</p>
+                        <p class="content">&#43;123 456 7890</p>
+                        <p class="content">&#43;123 456 7890</p>
+                    </li>
+                    <li class="address-info__item">
+                        <p class="content content--bold">Address</p>
+                        <address>
+                            123, Main Road, New City,
+                            <br> My Country 123456
+                        </address>
+                    </li>
+                </ul>
+            </div>
+
+            <form class="contact__form">
+                <h2 class="contact__form-title subtitle">Get in Touch</h2>
+                <div class="contact__form-items">
+                    <div class="contact__form-item">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+
+                    <div class="contact__form-item">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div class="contact__form-item">
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+
+                    <div class="contact__form-item">
+                        <label for="msg">Message</label>
+                        <textarea name="msg" id="msg" cols="30" rows="10" required></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn--primary">Submit</button>
+            </form>
+
+            <ul class="social-media">
+                <li class="social-media__item">
+                    <i class="fa fa-facebook-f"></i>
+                </li>
+                <li class="social-media__item">
+                    <i class="fab fa-google-plus-g"></i>
+                </li>
+                <li class="social-media__item">
+                    <i class="fab fa-vk"></i>
+                </li>
+                <li class="social-media__item">
+                    <i class="fa fa-youtube"></i>
+                </li>
+                <li class="social-media__item">
+                    <i class="fab fa-linkedin-in"></i>
+                </li>
+                <li class="social-media__item">
+                    <i class="fab fa-digg"></i>
+                </li>
+                <li class="social-media__item">
+                    <i class="fab fa-deviantart"></i>
+                </li>
+            </ul>
+
+            <footer class="contact__footer">
+                <p class="content">Designed By PSDFreebies.com</p>
+                <p class="content">COPYRIGHT 2017</p>
+            </footer>
+        </div>
+    </section>
+
+    <div class="page-top">
+        <i class="fas fa-angle-double-up"></i>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
