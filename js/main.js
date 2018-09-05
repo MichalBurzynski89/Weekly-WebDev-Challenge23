@@ -4,22 +4,22 @@ document.querySelector('.nav-toggle').addEventListener('click', function () {
 });
 
 const images = [...document.querySelectorAll('.profile__columns img')];
-const lightbox = document.getElementById('lightbox');
+const lightBox = document.getElementById('lightbox');
 
 images.forEach(image => {
     image.addEventListener('click', function () {
-        lightbox.style.display = 'block';
+        lightBox.style.display = 'block';
         let imageSrc = this.getAttribute('src');
         let modalImage = document.createElement('img');
         modalImage.setAttribute('src', imageSrc);
         modalImage.classList.add('lightbox__img');
-        lightbox.appendChild(modalImage);
+        lightBox.appendChild(modalImage);
     });
 });
 
 document.querySelector('.lightbox__close-icon').addEventListener('click', function () {
-    lightbox.removeChild(document.querySelector('.lightbox__img'));
-    lightbox.style.display = 'none';
+    lightBox.removeChild(document.querySelector('.lightbox__img'));
+    lightBox.style.display = 'none';
 });
 
 document.querySelector('.lightbox__prev-icon').addEventListener('click', function () {
