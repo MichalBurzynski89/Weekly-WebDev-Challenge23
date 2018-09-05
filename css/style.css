@@ -492,7 +492,7 @@ img.model {
 
 .client__logos {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .client__logo {
@@ -794,7 +794,7 @@ button[type="submit"]:hover {
     bottom: 25%;
     transform: translateX(-50%);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .social-media__item {
@@ -1564,5 +1564,35 @@ button[type="submit"]:hover {
     .blog__aside .blog__article:nth-child(2) .blog__article-title {
         margin-top: 1.75rem;
         margin-bottom: 1.75rem;
+    }
+}
+
+/***** --- iPhone 6, 6S, 7 and 8 FIXES ---  *****/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .profile__columns {
+        display: block;
+    }
+
+    .client__header {
+        margin-bottom: 7rem;
+    }
+
+    .client__header .content {
+        width: 100%;
+    }
+
+    .client__logo {
+        width: 22rem;
+        margin-bottom: 5rem;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .lightbox__img[src="images/img04.jpg"] {
+        width: 28vw;
+    }
+
+    .lightbox__img[src="images/img05.jpg"] {
+        width: 45vw;
     }
 }
